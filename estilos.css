@@ -1,0 +1,30 @@
+html{
+background: #ff6c3b;
+background: linear-gradient(180deg,rgba(255, 108, 59, 1) 0%, rgba(237, 221, 83, 1) 100%);
+}
+
+div.titulo{
+    background-color:  #fffaf0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serifad;
+}
+
+h1{
+    text-align: center;
+    color: rgb(51, 26, 15);
+}
+
+div.nombres{
+    margin: 10px;
+    width: 110px;
+     background-color:#fffaf0;
+     font-size: small;
+}
+
+nav.menu{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serifad;
+    background-color: #fffaf0;
+    margin: 30px;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+}
