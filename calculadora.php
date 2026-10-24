@@ -29,7 +29,9 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     if ($a === false || $a === null ||
         $b === false || $b === null) {
         echo "<p>Ingresa dos números válidos.</p>";
-    } else {
+    } else if($a==0 || $b == 0){
+        echo "<p>No ingrese 0";
+    }else {
         echo "<p>Suma: " . ($a + $b) . "</p>";
         echo "<p>Resta: " . ($a - $b) . "</p>";
         echo "<p>Divicion: " . ($a / $b) . "</p>";
